@@ -160,4 +160,80 @@ text-align: center;
       background-color: var(--accent);
       border-radius: 8px;
     }
+
+    .grid-form {
+      background-color: var(--accent);
+      display: grid;
+      grid-template-columns: repeat(3, 300px);
+      grid-template-rows: repeat(3, 300px);
+      grid-column-gap: 25px;
+      grid-row-gap: 15px;
+      justify-content: center;
+      text-align: center;
+      height: 400px;
+      padding: 70px;
+      border-radius: 7px;
+  }
+  .portfolio {
+      text-align: center;
+      text-transform: uppercase;
+  }
   
+  .rad {
+      border-radius: 7px;
+     
+  }
+  .form {
+      background-color: var(--accent-light);
+      color: var(--pure-white);
+  }
+  
+  .links {
+      background-color: var(--accent-light);
+      color: var(--pure-white);
+  }
+  
+  .lists {
+      background-color: var(--accent-light);
+      color: var(--pure-white);
+      
+  }
+  .form-img {
+      width: 300px;
+      height: 200px;
+      padding: 15px;
+  }
+  
+  
+  button {
+      width: 100px;
+      height: 30px;
+      background-color: var(--accent, #174180);
+      border-radius: 4px;
+  }
+
+  .show {
+ color:var(--pure-white);
+}
+  
+
+  
+  .container-2 {
+    color: #174180;
+    font-style: normal;
+    line-height: 2;
+  }
+  
+
+  .container-1 {
+    background-color: #174180;
+    color: #fff;
+    padding: 30px;
+    margin: 0;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 50px;
+  }
+ 
